@@ -13,7 +13,6 @@ import com.lizheblogs.draglistdemo.databinding.CodeFragmentBinding;
 
 /**
  * Created by LiZhe on 2018-11-19.
- * com.teenysoft.aamvp.module.main
  */
 public class CodeFragment extends Fragment {
 
