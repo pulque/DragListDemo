@@ -21,12 +21,14 @@
     滑动的方式设置
     当移动结束后回调onMove
     当侧滑删除后回调onSwiped
-### 3. 总结
+### 5. 总结
      其实ItemTouchHelper已经帮我们做了很多大量工作。
+     
      如果不想长按来移动排序可以这样：
      1.监听item view中setOnTouchListener的onTouch方法
      2.通过接口将holder传给ItemTouchHelper
      3.调用touchHelper.startDrag(holder)开始拖拽
+     
      代码：
      public interface StartDragListener {
          //触摸imageview，开启拖动的接口
